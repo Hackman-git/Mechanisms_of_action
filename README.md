@@ -1,2 +1,3 @@
-# Mechanisms_of_action
-.
+# Mechanisms of action of a drug (MOA)
+This refers to how the drug works on a molecular level in the body. It is the biochemical process through which a drug produces its effect. 
+One approach to determine MOA is to treat a sample of human cells with the drug and then analyze the cellular responses with algorithms that search for similarity to known patterns in large genomic databases, such as libraries of gene expression or cell viability patterns of drugs with known MoAs. Given a compound’s cellular signature, we aim to predict its MOA. The metric to optimize in this task is the cross-entropy loss and this is a multi-label classification machine learning problem.
